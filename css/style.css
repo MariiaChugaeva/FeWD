@@ -1,0 +1,49 @@
+body {
+  background-color: #E8D6FE;
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.discription {
+  display: flex;
+  justify-content: center;
+  margin-right: 16%;
+  gap: 100px;
+  height: 200px;
+}
+
+.foto {
+height: 300px;
+border-radius: 50%;
+}
+
+p {
+  width: 700px;
+}
+
+.achievements {
+  margin-left: 36%;
+  
+}
+
+.details {
+  margin-left: 36%;
+  margin-top: 2%;
+}
+
+.links {
+  display:flex;
+  padding-left: 0%;
+  list-style-type: none;
+  gap: 10px;
+}
+.li:hover {
+  transform: scale(1.3)
+}
