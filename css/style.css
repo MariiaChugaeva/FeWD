@@ -11,6 +11,10 @@ h1 {
   justify-content: center;
 }
 
+h2 {
+  display: flex;
+}
+
 .discription {
   display: flex;
   flex-direction: row;
@@ -28,6 +32,9 @@ border-radius: 50%;
 
 p {
   width: 700px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .achievements {
@@ -47,6 +54,7 @@ p {
   /*overflow: hidden;*/
   background-color: rgb(255, 255, 255);
   width: 400px;
+  box-shadow: #967fb1 5px 10px 10px;
 }
 
 .item-content {
