@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { formatDistanceToNowStrict } from 'date-fns';
 import { Comic } from '../types/comic';
 import { Link } from 'react-router-dom';
+import Layout from '../components/Layout';
 
 interface ComicComponentProps {
   email: string;

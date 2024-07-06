@@ -1,5 +1,7 @@
 import React from 'react';
 import JabaGif from '../media/jaba.gif';
+import Layout from '../components/Layout';
+
 const Header: React.FC = () => (
     <section id="about" className="home">
       <div className="home-content">

@@ -1,4 +1,5 @@
 import React from 'react';
+import Layout from '../components/Layout';
 const Body: React.FC = () => (
 <section id="about" className="home">
     <div className="home-content">

@@ -4,6 +4,7 @@ import vkicon from '../media/icons8-vk.svg';
 import teleicon from '../media/icons8-логотип-telegram.svg';
 import maleicon from '../media/icons8-почта.svg';
 import { Link } from 'react-router-dom';
+import Layout from '../components/Layout';
 
 const Links: React.FC = () => (
   <section id="contact" className="contact">
